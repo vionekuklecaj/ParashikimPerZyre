@@ -1,0 +1,27 @@
+DATASET
+e krijuar ne excel dhe e ruajtur si csv
+
+PYTHON
+1. Fillova me importimin e librarive si pandas(per lexim te csv)
+1.2. train_test_split per trajnimin e te dhenave dhe testimin e tyre
+1.3. LabelEncoder per konvertimin e fjaleve ne numra 
+1.4. DecisionTreeClassifier per klasifikim ne baze te pytjeve(p.sh. (distanca < 10, ka makine = po, work mode = Remote) == po)
+1.5. accuracy_score per me i pa a jane te sakta parashikimet 
+
+2. lexojme dataset-in 
+3. largojme rreshtat pa te dhena
+4. permes LabelEncoder e kam bo konvertimin ne numra
+5. Ndarja X -- te dhenat e hyra perveq pergjigjjes dhe y -- ajo qe duam te parashikojme
+6. Train/Test Split 
+7. Behet krijimi i model-it permes DecisionTreeClassifier pra nje ml algoritem i zbrazet dhe e trajnojme me te dhena qe te mesoj nje pattern
+   ku permes predict e perdor ate qe i kemi dhene dhe parashikon
+
+8. accuracy_score e ben matjen e saktesise 
+9. Pastaj si shembull e kam marre nese kemi nje punetor te ri a do te shkoj ne zyre
+10. print(data.head()) printohet tabela me te dhenat e 5 personave te pare
+
+
+
+Supervised learning ML per shkak te te dhenave te sakta YES/NO
+Klasifikimi permes Decision Trees 
+
